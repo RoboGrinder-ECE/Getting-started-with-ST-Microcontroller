@@ -20,6 +20,10 @@ A beginning guide for ST-Microcontroller
 7. Double click **STM32F427IIHx**, a MCU pin graph will show up
 8. Reference to [RoboMaster Development Board User Guide](https://rm-static.djicdn.com/tem/RoboMaster%20Development%20Board%20Type%20A%20User%20Guide.pdf), Pin Out digram, PG1 is connect to one of the LED.
 9. Find PG1 and left click it, set it as GPIO_Output
+10. Click on **Project Manager** section, fill in project name, project location and change the toolchain to **MDK-ARM V5**
+11. Click **GENERATE CODE**, when finished, click open project.
+12. In **main.c** file, use **HAL_GPIO_TogglePin()** and **HAL_Delay()** to make LED blink once per second.
+13. Build the project and Flash to Development Board, check if it is working as desire.
 
 # Document for STM32F4 microcontrollers
 [STM32F4 HAL and LL driver](https://www.st.com/content/ccc/resource/technical/document/user_manual/2f/71/ba/b8/75/54/47/cf/DM00105879.pdf/files/DM00105879.pdf/jcr:content/translations/en.DM00105879.pdf)
