@@ -13,3 +13,5 @@
 [STM32F4 Reference Manual](https://www.st.com/content/ccc/resource/technical/document/reference_manual/3d/6d/5a/66/b4/99/40/d4/DM00031020.pdf/files/DM00031020.pdf/jcr:content/translations/en.DM00031020.pdf)
 
 [RoboMaster Development Board User Guide](https://rm-static.djicdn.com/tem/RoboMaster%20Development%20Board%20Type%20A%20User%20Guide.pdf)
+
+[STM32L4 CAN new API and migration](https://github.com/RoboGrinder-ECE/Wiki/blob/master/STM32L4%20CAN%20new%20API%20and%20migration.pdf)
